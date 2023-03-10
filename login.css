@@ -1,0 +1,126 @@
+/* styles.css */
+
+/* Add styles here to customize the appearance of your app */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  /* box-sizing: border-box; */
+}
+img {
+
+    width: 160px;
+    justify-content: center;
+    align: center;
+    left: 100px;
+  
+  }
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background-image:   url('login.png');
+    align-items: center;
+	height: 900px;
+    left: 0px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: 3px;
+    object-fit: cover;
+    
+
+  }
+
+  a{
+    position: relative;
+    background: #fff;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+
+
+  }
+
+  a:hover{
+    background: var(--clr);
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px var(--clr);
+  }
+
+  .card {
+    top: 70px;
+    background: --darker;
+    color: --grey;
+    left: 30px;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3))
+  }
+
+  button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+
+  #username {
+	flex: 1 1 0%;
+	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-right: 1rem;
+	color: var(--dark);
+	font-size: 1.25rem;
+
+}
+
+#username::placeholder {
+	color: var(--grey);
+}
+
+#login-submit {
+	color: var(--pink);
+	font-size: 1.25rem;
+	font-weight: 700;
+	background-image: linear-gradient(to right, var(--dark), var(--grey));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+button {
+    margin: 0.5em;
+    
+    left: 200px;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
